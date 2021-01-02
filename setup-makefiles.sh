@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=flox
+DEVICE=flo
 VENDOR=asus
 
 # Load extract_utils and do some sanity checks
@@ -27,8 +27,13 @@ source "${HELPER}"
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
+<<<<<<< HEAD
 # Warning headers and guards
 write_headers
+=======
+# Copyright headers and guards
+write_headers "flo deb"
+>>>>>>> parent of ffe073b... flox: Rebrand from flo
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
