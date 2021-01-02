@@ -33,7 +33,6 @@ write_headers
 =======
 # Copyright headers and guards
 write_headers "flo deb"
->>>>>>> parent of ffe073b... flox: Rebrand from flo
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
