@@ -48,8 +48,6 @@ write_headers
 =======
 # Copyright headers and guards
 write_headers "flo deb"
->>>>>>> parent of ffe073b... flox: Rebrand from flo
->>>>>>> 1769c0d... Revert "flox: Rebrand from flo"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-blobs.txt
