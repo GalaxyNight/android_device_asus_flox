@@ -38,14 +38,6 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
-<<<<<<< HEAD
-# Copyright headers and guards
-write_headers "flox debx"
-=======
-<<<<<<< HEAD
-# Warning headers and guards
-write_headers
-=======
 # Copyright headers and guards
 write_headers "flo deb"
 
