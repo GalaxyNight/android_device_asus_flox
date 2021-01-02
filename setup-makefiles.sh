@@ -18,8 +18,8 @@
 set -e
 
 VENDOR=asus
-DEVICE_COMMON=flox
-DEVICE=${DEVICE:-flox}
+DEVICE_COMMON=flo
+DEVICE=${DEVICE:-flo}
 export INITIAL_COPYRIGHT_YEAR=2013
 
 # Load extractutils and do some sanity checks
@@ -38,8 +38,18 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
+<<<<<<< HEAD
 # Copyright headers and guards
 write_headers "flox debx"
+=======
+<<<<<<< HEAD
+# Warning headers and guards
+write_headers
+=======
+# Copyright headers and guards
+write_headers "flo deb"
+>>>>>>> parent of ffe073b... flox: Rebrand from flo
+>>>>>>> 1769c0d... Revert "flox: Rebrand from flo"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-blobs.txt

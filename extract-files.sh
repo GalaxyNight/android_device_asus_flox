@@ -17,6 +17,10 @@
 
 set -e
 
+<<<<<<< HEAD
+=======
+DEVICE=flo
+>>>>>>> 1769c0d... Revert "flox: Rebrand from flo"
 VENDOR=asus
 DEVICE_COMMON=flox
 DEVICE=${DEVICE:-flox}
